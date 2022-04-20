@@ -21,8 +21,7 @@ const App = () => {
     ...{ good, neutral, bad },
     ...{ total: totalFeddbacks, positive: positiveAverage },
   };
-  // console.log(positiveAverage);
-  // console.log(this.statData);
+
   return (
     <Container>
       <Title>Plaese leave feedback</Title>
